@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome ot the book all about building powerful, intuitive, and fast command line applications using
+Welcome to the book all about building powerful, intuitive, and fast command line applications using
 the [Rust] programming language! This book aims to answer three distinct quesitons:
 
  * How should I structure and build a command line application?
