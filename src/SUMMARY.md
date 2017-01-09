@@ -29,5 +29,5 @@
         - [Settings]()
     - [`ArgGroup`]()
 -------
-[Contributors]()
-[Contributing]()
+[Contributors](./appendix-00-contributors.md)
+[Contributing](./appendix-01-contributing.md)
