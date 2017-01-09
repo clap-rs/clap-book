@@ -16,6 +16,8 @@ The simplified components are:
  * Application Logic
 
 The following is a diagram depicting common flow for command line applications in Rust. Don't be
-alarmed if not everything doesn't make perfect sense yet. All will be explained shortly!
+alarmed if not everything doesn't make perfect sense yet. All will be explained shortly! Also, it's
+important to note that different applications can take *slightly* different forms, but the basic
+components remain roughly the same.
 
  <img src="img/ch01-00-components.png" />
