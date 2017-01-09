@@ -11,6 +11,7 @@ The following items are only required to run nightly examples or to aid in runni
 target a particular compiler version:
 
  * [`rustup`]
+ * `git`
 
  All examples from this book can be found [on Github].
  
