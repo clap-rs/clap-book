@@ -18,3 +18,13 @@ Like this
 ```
 
 Key terms to remember will be marked in *italics* on their first use.
+
+When running examples, the terminal will be displayed with a leading `$` if the command is meant to
+be run as an unpriviledged uesr (such as your normal user account), or a `#` if the command is meant
+to be run as `root` or with administrative priviledges. The leading character does not need to be
+typed when copying commands.
+
+Commands that are meant to be run on a Microsoft Windows terminal will be prefaced with a `C:\>`
+prompt.
+
+All commands should be able to run in either Linux, macOS, or Windows unless otherwise noted.
