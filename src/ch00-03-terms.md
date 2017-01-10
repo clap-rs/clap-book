@@ -28,3 +28,9 @@ Commands that are meant to be run on a Microsoft Windows terminal will be prefac
 prompt.
 
 All commands should be able to run in either Linux, macOS, or Windows unless otherwise noted.
+
+Special notes to the reader will be annotated like this:
+
+---
+*Note:* This is a special note that may explain additional details about a particular subject
+---

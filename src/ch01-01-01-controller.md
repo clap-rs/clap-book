@@ -5,6 +5,18 @@ exit of your program. It may not be a *thing* per se, but may just be a single *
 particular function. In Rust programs it's common to use `main()` as a controller, perform the
 initialization, then delegate out to another function which handles the application logic.
 
+If you recall the diagram at the beginning of the chapter, there is another common variation where
+`main()` delegates out to `run()` immidiately, and then having `run()` do all the initializaiton and
+such. `run()` would then be responsible for delegating out to some other `Application::start()`
+style method. The primary difference between these two approaches is where the delegation happens
+and who's responsible for what. More or less it's a matter of personal preference so long as
+everything *is* handled as concisely as possible.
+
+---
+*Note:* The author of this book prefers using `main()` to initialize the application in general, and
+`run()` to control application logic and flow. This is the primary approach taken througout this
+book. Like all things though, there is rarely *one* correct way to do things!
+---
 
 This keeps your entry and exit point neat and tidy, as well as makes it easy to see where in your
 code things start and end. An example for a `main()` is:

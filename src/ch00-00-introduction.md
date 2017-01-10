@@ -1,5 +1,9 @@
 # Introduction
 
+---
+*Note:* This book is a work in progress in the pre-alpha stages. The source can be found [on Github]
+---
+
 Welcome to the book all about building powerful, intuitive, and fast command line applications using
 the [Rust] programming language! This book aims to answer three distinct quesitons:
 
