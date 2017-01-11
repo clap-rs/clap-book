@@ -13,4 +13,8 @@ various techniques.
 
 All of the examples in this section can be found [on Github] under the `examples/` directory.
 
+The example program we'll be building is a replacement for the `wc` command line tool. If you're not
+familiar with `wc` it's a very simple program which counts the lines, bytes, and/or words of a given
+file or input and then outputs that information to `stdout`.
+
 [on Github]: https://github.com/kbknapp/clap-book
