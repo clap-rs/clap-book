@@ -1,3 +1,4 @@
+# requires githubcontrib (https://github.com/mgechev/github-contributors-list)
 @update-contributors:
 	echo 'Removing old appendix-00-contributors.md'
 	mv src/appendix-00-contributors.md appendix-00-contributors.md.bak
@@ -16,13 +17,5 @@ clean:
 	find . -type f -name "*.bk" -exec rm {} \;
 	find . -type f -name ".*~" -exec rm {} \;
 
-@help: list
-
-@list:
-	echo 'Available commands:'
-	echo
-	echo -e '\tupdate-contributors'
-	echo -e '\t\trequires: githubcontrib (https://github.com/mgechev/github-contributors-list)
-	echo -e '\tbuild'
-	echo -e '\tclean'
-	echo -e '\tlist | help'
+@help:
+	just -l
