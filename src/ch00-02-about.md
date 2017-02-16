@@ -15,7 +15,7 @@ in extreme detail in the following sections.
 ### Part II - Command Line Interface Design and UX
 
 In the second section we talk specifically about designing a command line interface and the various
-considerings for a good user experience (UX). As it turns out, small and subtle design choices can
+considering for a good user experience (UX). As it turns out, small and subtle design choices can
 actually have a great impact on a users impression of your application or utility.
 
 This section uses a multitude of examples and builds upon the example project from the first

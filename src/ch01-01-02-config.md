@@ -25,13 +25,13 @@ often recommend starting with owned data, and move to borrowed data as appropria
 
 There are a few factors that impact our decision to use owned or borrowed data such as:
 
- * Will our program need to, or be able to run in parrellel?
+ * Will our program need to, or be able to run in parallel?
  * How long will our application need access to the information inside `Config`?
  * Will our application need access to *all* of the information inside `Config` at all times, or
    only a subset?
- * Will the `Config` need to be mutable throughout the applicaitons execution, or is it only mutable
+ * Will the `Config` need to be mutable throughout the applications execution, or is it only mutable
    during creation while all information is being normalized?
 
-For `rwc` we *could* count multiple files in parrellel, or perhaps divide files into chunks and
+For `rwc` we *could* count multiple files in parallel, or perhaps divide files into chunks and
 count those in parallel, but we'll start out processing files in serial for simplicity and add in
-parallelized portions as we advance.
+paralleled portions as we advance.

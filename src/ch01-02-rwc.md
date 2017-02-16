@@ -1,12 +1,12 @@
 # Meet rwc
 
 Now that we've discussed the common components of a command line program in a high level and
-abstract manner, we can get down to the gory details and what most consier the fun part!
+abstract manner, we can get down to the gory details and what most consider the fun part!
 
 Implementation!
 
 The `wc` program was picked because it's simple enough to actually build while focusing on the
-compents instead of being overwhelmed by the complexities of what it's trying to do, but also deals
+components instead of being overwhelmed by the complexities of what it's trying to do, but also deals
 with enough of the common components that it'll be a great example.
 
 Since we won't be dealing with any sort of interface (yet), we'll use a static file `lorem.txt` as
