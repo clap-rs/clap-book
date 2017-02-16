@@ -8,13 +8,13 @@ speaking about results:
  * Consider supporting multiple types of output early in the design (thinking changes to human
    readable output, as well as incorporating machine readable output like JSON if applicable)
 
-The second bullet is self explanitory; consider whether or not your particular output should be
-tweakable early in the design of the applicaiton. Tweakable means things such as substituting
+The second bullet is self explanatory; consider whether or not your particular output should be
+tweakable early in the design of the application. Tweakable means things such as substituting
 separators, or converting number formats. Considering the design early will allow grouping write
 statements, or a trait based approach instead of branches and case statements.
 
-The first bullet is more surpsing to most people. The reason for prefering the `write!` macros is
-that it's possible for the `println!` macros to `panic!` and runtime (albiet in rare circumstances)
+The first bullet is more surprising to most people. The reason for preferring the `write!` macros is
+that it's possible for the `println!` macros to `panic!` and runtime (albeit in rare circumstances)
 whereas writing directly to `std::io::stdout()` (or any other `io::Write` object) allows you check
 for the failure and return a pretty error message. But it also has another added benefit of allowing
 one to write to other `io::Write` objects without changing any code.

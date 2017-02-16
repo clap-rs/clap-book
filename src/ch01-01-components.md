@@ -1,7 +1,7 @@
 # Major Components
 
 Even though the use case, capabilities, and implementation of all command line programs is almost
-infinitely vast, they all share some common compenents. If we extract these components we can reuse
+infinitely vast, they all share some common components. If we extract these components we can reuse
 code between our various programs. It also provides a sort of blueprint for building our
 applications in an efficient and effective manner.
 

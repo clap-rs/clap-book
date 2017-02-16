@@ -13,7 +13,7 @@ Imagine a program, which outputs all the requested information but in a format t
 of. Maybe the output is comma separated instead of tabs, and in the reverse order that you'd like
 to see. This may be a minor annoyance, but it's common (at least in the Linux and Unix based worlds)
 to combine the output of one program and shape that output with other commands and utilities. Many
-users may simply accept the results as given, and find ways to shift their workflow to accomodate.
+users may simply accept the results as given, and find ways to shift their workflow to accommodate.
 
 Unfortunately, the same cannot be said of errors. An application that gives uninformative,
 misleading, or worse yet incorrect error information can cause uses to abandon an application

@@ -14,12 +14,12 @@ program how to interpret the input.
 
 All of these things must be communicated to the program in some manner. The next section focuses on
 interfaces in extreme detail, so I won't elaborate just yet. For now, simply remember that there are
-a multitudeof ways in which the user *could* comminicate with our program, and the difference 
-between a well designed and powerful interface and one that is unintuitive or even laboreous to use
+a multitude of ways in which the user *could* communicate with our program, and the difference 
+between a well designed and powerful interface and one that is unintuitive or even laborious to use
 could mean the difference between your program being used, or passed over for something else.
 
 For now we'll simply note that there are two primary command line interfaces; command based, and
 terminal user interfaces (TUI). This book focuses on the former as it often appears to be more
-simple and common form, but also has fewer resources dedicated it. TUI applications can largly
+simple and common form, but also has fewer resources dedicated it. TUI applications can largely
 follow the design principals of GUI programs as the two are very similar with minor differences
 (such as the the potential inability to use the mouse or certain forms of input).
